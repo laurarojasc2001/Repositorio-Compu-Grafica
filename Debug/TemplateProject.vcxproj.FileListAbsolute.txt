@@ -1,0 +1,4 @@
+C:\Users\laboratorio\Desktop\GLSL_Lighting\Debug\TemplateProject.exe
+C:\Users\laura\OneDrive\Escritorio\Computacion grafica\actividad1 - parte2\GLSL_Lighting\Debug\TemplateProject.exe
+C:\Users\laura\OneDrive\Escritorio\Computacion grafica\actividad1\GLSL_Lighting\Debug\TemplateProject.exe
+C:\Users\laura\OneDrive\Escritorio\Computacion grafica\actividad2\GLSL_Lighting\Debug\TemplateProject.exe

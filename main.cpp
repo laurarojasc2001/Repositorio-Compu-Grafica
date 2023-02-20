@@ -12,6 +12,7 @@
 #include "Triangulos.h"
 #include "Cubo.h"
 #include "Tetera.h"
+#include "Cola.h"
 
 //-----------------------------------------------------------------------------
 
@@ -28,6 +29,7 @@ protected:
     Triangulos* miTriangulo;
     Cubo* miCubo;
     Tetera* miTetera;
+    Cola* miCola;
 
 
 public:
@@ -47,21 +49,24 @@ public:
         //TRANSFORMACIONES GLOBALES
          //glRotatef(timer010*360, 0.5, 1.0f, 0.1f);
 
-        glTranslatef(0, 0, -10);
+        glTranslatef(0, 0, -5);
 
             /*glPushMatrix();
                 glutSolidSphere(0.5, 20, 20);
                 glTranslatef(0, 0, 0);
-             glPopMatrix();*/
+             glPopMatrix();
 
              miCubo->DibujarCubos(3, 3, 0, 45);
-             miCubo->DibujarCubos(-3, 3, 0, -30);
+             miCubo->DibujarCubos(-3, 3, 3, -30);
 
              miTriangulo->DibujarTriangulos(0, 3, 0);
 
              miTetera->DibujarTetera(3, 0, 0);
              miTetera->DibujarTetera(0, -3, 0);
              miTetera->DibujarTetera(-3, 0, 0);
+             */
+
+             miCola->DibujarCola(30, 25, 0, -1, 0);
 
              
 
@@ -94,6 +99,7 @@ public:
         miTriangulo = new Triangulos();
         miCubo = new Cubo();
         miTetera = new Tetera();
+        miCola = new Cola();
 		glClearColor(0.5f, 0.5f, 1.0f, 0.0f);
 		glShadeModel(GL_SMOOTH);
 		glEnable(GL_DEPTH_TEST);

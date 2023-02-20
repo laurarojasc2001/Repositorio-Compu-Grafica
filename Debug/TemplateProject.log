@@ -1,0 +1,10 @@
+﻿cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  Cola.cpp
+C:\Users\laura\OneDrive\Escritorio\Computacion grafica\actividad2\GLSL_Lighting\Cola.cpp(15,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\laura\OneDrive\Escritorio\Computacion grafica\actividad2\GLSL_Lighting\Cola.cpp(18,16): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\laura\OneDrive\Escritorio\Computacion grafica\actividad2\GLSL_Lighting\Cola.cpp(19,16): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\laura\OneDrive\Escritorio\Computacion grafica\actividad2\GLSL_Lighting\Cola.cpp(29,12): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\laura\OneDrive\Escritorio\Computacion grafica\actividad2\GLSL_Lighting\Cola.cpp(30,12): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\laura\OneDrive\Escritorio\Computacion grafica\actividad2\GLSL_Lighting\Cola.cpp(39,26): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\laura\OneDrive\Escritorio\Computacion grafica\actividad2\GLSL_Lighting\Cola.cpp(42,10): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  TemplateProject.vcxproj -> C:\Users\laura\OneDrive\Escritorio\Computacion grafica\actividad2\GLSL_Lighting\Debug\TemplateProject.exe
